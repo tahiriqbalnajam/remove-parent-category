@@ -3,7 +3,7 @@ namespace Idlbridge\Catparent\Model;
 
 class Categoryurl extends \Magento\CatalogUrlRewrite\Model\CategoryUrlPathGenerator
 { 
-	 public function getUrlPath($category)
+	 public function getUrlPath($category, $parentCategory = NULL)
     {
 		/*die('instart');
       if (in_array($category->getParentId(), [Category::ROOT_CATEGORY_ID, Category::TREE_ROOT_ID])) {
