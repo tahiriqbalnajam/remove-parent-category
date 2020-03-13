@@ -1,6 +1,6 @@
-# Magento2-Remove-Parent-Category-from-Child-Category-URL
+# Magento2 remove parent category from child category URL
 
-Installation:
+##Installation:
 
 Just upload the files and run command php magento/bin setup:upgrade
 
